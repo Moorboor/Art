@@ -1,0 +1,57 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+}
+
+#gallery{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+
+.light {
+  background-color: #26313a; /* Light background color */
+  padding: 15px;             /* Adds padding around the content */
+  border-radius: 8px;        /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+
+section{
+  /* grid-column: span 1;
+   grid-row: span 1; */
+
+}
+
+/* section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+} */
